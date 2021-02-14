@@ -1,0 +1,42 @@
+.detalles {
+    background-color: salmon;
+    color: white;
+    text-align: center;
+    font-size: x-large ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.descripcion{
+        font-family: 'Cinzel' sans-serif;
+        color: #ffffff; 
+        font-size: 18px; 
+        font-weight: 400; 
+        text-align: center; 
+        background: grey; 
+        margin:  25px; 
+        overflow: hidden; 
+        padding: 20px; 
+        border-radius: 35px 0px 35px 0px; 
+        -moz-border-radius: 35px 0px 35px 0px; 
+        -webkit-border-radius: 35px 0px 35px 0px; 
+        border: 2px solid grey;
+}
+.container {
+    position: relative;
+    max-width: 600px; 
+    margin: 0 auto; 
+    margin-bottom: 30px;
+  }
+  
+  .container .content {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    width: 95%; 
+    padding: 15px; 
+
+  }
+  .orden{
+    text-align: center;
+  }

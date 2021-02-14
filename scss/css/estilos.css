@@ -1,0 +1,492 @@
+.descripcion {
+  display: list-item;
+}
+
+.me {
+  text-align: center;
+  font-size: x-large;
+  background-color: salmon;
+  color: white;
+}
+
+.opciones {
+  text-align: center;
+  font-size: large;
+}
+
+p {
+  text-align: center;
+  font-size: medium;
+}
+
+.img {
+  margin-top: 50px;
+  margin-left: 10px;
+}
+
+.audio {
+  color: white;
+}
+
+.orden {
+  text-align: center;
+}
+
+.contacto {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+
+.ubi {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: right;
+          flex-direction: right;
+  font-size: xxlarge;
+  margin-top: 50px;
+  color: white;
+  background-color: salmon;
+}
+
+.donde p {
+  font-size: medium;
+  margin-bottom: 400px;
+  font-family: 'Radley', serif;
+  text-align: center;
+  margin-top: 50px;
+  padding: 50px;
+  border-radius: 35px 0px 35px 0px;
+  -moz-border-radius: 35px 0px 35px 0px;
+  -webkit-border-radius: 35px 0px 35px 0px;
+  border: 2px solid grey;
+}
+
+.donde iframe {
+  float: left;
+}
+
+.get-in-touch {
+  max-width: 800px;
+  margin: 50px auto;
+  position: relative;
+}
+
+.get-in-touch .title {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 3.2em;
+  line-height: 48px;
+  padding-bottom: 48px;
+  color: teal;
+  background: teal;
+  background: -webkit-gradient(linear, left top, right top, from(teal), to(salmon)) !important;
+  background: linear-gradient(to right, teal 0%, salmon 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.contact-form .form-field {
+  position: relative;
+  margin: 32px 0;
+}
+
+.contact-form .input-text {
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-color: teal;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.contact-form .input-text:focus {
+  outline: none;
+}
+
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label {
+  -webkit-transform: translateY(-24px);
+  transform: translateY(-24px);
+}
+
+.contact-form .label {
+  position: absolute;
+  left: 20px;
+  bottom: 11px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: teal;
+  cursor: text;
+  transition: -webkit-transform .2s ease-in-out;
+  -webkit-transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out,  -webkit-transform .2s ease-in-out;
+}
+
+.contact-form .submit-btn {
+  display: inline-block;
+  background-color: #000;
+  background-image: linear-gradient(125deg, teal, salmon);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  width: 200px;
+  cursor: pointer;
+}
+
+.orden {
+  text-align: center;
+}
+
+.detalles {
+  background-color: salmon;
+  color: white;
+  text-align: center;
+  font-size: x-large;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.descripcion {
+  font-family: 'Cinzel' sans-serif;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  background: grey;
+  margin: 25px;
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 35px 0px 35px 0px;
+  -moz-border-radius: 35px 0px 35px 0px;
+  -webkit-border-radius: 35px 0px 35px 0px;
+  border: 2px solid grey;
+}
+
+.container {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: black;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 95%;
+  padding: 15px;
+}
+
+.orden {
+  text-align: center;
+}
+
+.slogan {
+  text-align: center;
+  background-color: salmon;
+  color: white;
+  font-size: large;
+}
+
+.foto {
+  width: 400px;
+  left: 400px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.foto:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+.orden {
+  text-align: center;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  background-position: center;
+  background-size: cover;
+  font-family: 'Radley', serif;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+h3 {
+  text-align: left;
+  font-weight: bold;
+  font-size: medium;
+  background-color: white;
+  color: teal;
+}
+
+h4 {
+  text-align: center;
+  font-weight: bold;
+  font-size: xx-large;
+  background-color: white;
+  color: teal;
+}
+
+a {
+  -webkit-text-decoration: white;
+          text-decoration: white;
+  letter-spacing: 3px;
+}
+
+.container-header {
+  font-style: normal;
+  font-weight: bold;
+  font-size: large;
+}
+
+ul li {
+  display: inline-block;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+ul li :hover {
+  color: white;
+}
+
+.title {
+  color: rosybrown;
+}
+
+#link {
+  list-style-type: none;
+  overflow: hidden;
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+  border-style: solid;
+  color: teal;
+}
+
+.link {
+  color: salmon;
+}
+
+.boton {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  border-bottom: hidden;
+  background-color: #DB504A;
+  padding: 10px;
+  border-radius: 13px;
+  font-size: 1.7rem;
+  display: block;
+  margin: auto;
+}
+
+.boton:hover {
+  -webkit-transform: translate3d(10px, 20px);
+          transform: translate3d(10px, 20px);
+  background-color: #072968;
+}
+
+.banner {
+  -webkit-animation-name: animate__swing;
+          animation-name: animate__swing;
+  color: #f0f5f5;
+  text-align: center;
+  font-family: 'Radley', serif;
+  font-weight: bold;
+}
+
+span {
+  color: #bb4538;
+}
+
+.titulo {
+  color: salmon;
+}
+
+.columnas {
+  background-color: #0b5e64;
+  color: white;
+}
+
+.informacion {
+  background-color: salmon;
+  color: white;
+}
+
+.padre {
+  float: row;
+  color: rosybrown;
+}
+
+.titulo {
+  background-color: white;
+  color: rosybrown;
+}
+
+.ig {
+  width: 50px;
+  height: 50px;
+  float: right;
+}
+
+.fb {
+  width: 50px;
+  height: 50px;
+  float: right;
+}
+
+.slogan__foto {
+  width: 400px;
+  left: 400px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.slogan__foto:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left !important;
+      -ms-flex-pack: left !important;
+          justify-content: left !important;
+}
+
+.logo {
+  -webkit-transform: rotate3d(360);
+          transform: rotate3d(360);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.logo:hover {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.container h2 {
+  font-size: x-large;
+  color: #ecbfa2;
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'Radley', serif;
+  background-color: teal;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+@-webkit-keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.nosotros {
+  margin-top: 50px;
+  border-top: teal solid;
+}
+
+.tituloin {
+  float: center;
+}
+
+.nosotros p {
+  font-size: large;
+  margin-top: 50px;
+  padding: 50px;
+}
+
+.descripcion {
+  font-display: right;
+  background-color: transparent;
+  color: black;
+  border: transparent;
+}
+
+.nosotros img {
+  float: left;
+}
+
+.pie {
+  margin-bottom: 5px;
+  padding: 50px;
+  border-top: teal solid;
+  font-family: 'Radley', serif;
+  font-size: 15px;
+  text-align: left;
+}
+
+.redes {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.redes a {
+  text-decoration: none;
+  color: #1d1e18;
+  margin-right: 10px;
+}
+
+.redes a:hover {
+  color: rosybrown;
+}
+
+.container-fluid {
+  padding: 10px;
+  background: #0b5e64;
+  z-index: 10000;
+  width: 100% !important;
+  color: white;
+}
+/*# sourceMappingURL=estilos.css.map */

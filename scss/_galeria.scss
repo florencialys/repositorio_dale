@@ -1,0 +1,24 @@
+
+  .slogan{
+  text-align: center;
+  background-color:salmon;
+  color: white;
+  font-size: large;
+  
+  }
+.foto {
+    width: 400px;
+    left: 400px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+  
+  .foto:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+  }
+.orden{
+  text-align: center;
+}
